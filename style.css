@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: antiquewhite;
+}
+nav {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding-left: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.logo img {
+  width: 64px;
+  padding: 0 12px;
+}
+.contanier {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 70vh;
+  background-color: black;
+  background-image: url(https://t3.ftcdn.net/jpg/05/62/98/36/360_F_562983674_524xR5Rzurt8MjTQghCvNYBcyeuvLHPE.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  padding: 34px;
+}
+#myprogressbar{
+  width: 80vw;
+  cursor: pointer;
+  text-align: center;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  flex-direction: column;
+}
+.icon {
+  margin-top: 14px;
+}
+.icon i {
+  cursor: pointer;
+}
+.songListcontanir{
+  margin-top: 70px;
+}
+.songitem {
+  height: 50px;
+  display: flex;
+  color: black;
+  margin: 12px 0;
+  background-color: white;
+  justify-content: space-between;
+  border-radius: 50px;
+
+  text-align: center;
+}
+.songitem span {
+  padding-top: 16px;
+}
+.timestamp {
+  margin: 0 20px;
+}
+.timestamp i {
+  padding: 0 12px;
+  cursor: pointer;
+}
+.songitem img {
+  width: 67px;
+  margin-left: 23px;
+  border-radius: 55px;
+}
+.songinfo{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  left: 10vw;
+}
